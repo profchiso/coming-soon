@@ -1,0 +1,27 @@
+{
+    "name": "awap",
+    "version": "1.0.0",
+    "description": "Awap investors",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/profchiso/coming-soon.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/profchiso/coming-soon/issues"
+    }
+}
