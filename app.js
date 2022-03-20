@@ -7,7 +7,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.use(cors());
 app.get('/', async(req, res) => {
-    getUserIp(req.ip, '/');
+
     return res.status(200).render('index.ejs');
 });
 app.listen(PORT, () => console.log(`Server listening for request on ${PORT}`));
